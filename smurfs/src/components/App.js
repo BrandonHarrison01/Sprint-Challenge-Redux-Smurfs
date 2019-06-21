@@ -39,7 +39,7 @@ class App extends Component {
     if (this.props.fetchingSmurfs) {
       <h2>fetching smurfs...</h2>
     }
-    console.log(this.props.smurfs)
+    // console.log(this.props.smurfs)
     return (
       <div className="App">
         <h1>SMURFS! 2.0 W/ Redux</h1>
